@@ -1,7 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/baby_pink"
+    android:padding="16dp">
 
-</LinearLayout>
+    <!-- Three-Dot Menu at the Top Left -->
+    <ImageView
+    android:id="@+id/menuButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/baseline_menu_24"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:contentDescription="Menu"
+    android:padding="8dp" />
+
+    <!-- Title for the main page -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIGITAL NOTEBOOK"
+        android:textColor="@color/puce"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/pacifico"/>
+
+    <!-- Calendar Button -->
+
+    <!-- Journal Button -->
+
+    <!-- To-Do List Button -->
+    <LinearLayout
+        android:id="@+id/calendarButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/titleText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="177dp"
+        android:background="@drawable/circle_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_calendar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calendar"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/journalButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/titleText"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="177dp"
+        android:layout_toEndOf="@id/calendarButton"
+        android:background="@drawable/circle_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_journal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Journal"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/todoButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/calendarButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/circle_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_todo_list" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To-Do List"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Empty Slot Button -->
+    <LinearLayout
+        android:id="@+id/emptyButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/calendarButton"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="22dp"
+        android:layout_toEndOf="@id/todoButton"
+        android:background="@drawable/circle_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empty Slot"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>
