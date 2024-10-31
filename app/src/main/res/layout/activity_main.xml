@@ -6,14 +6,14 @@
 
     <!-- Three-Dot Menu at the Top Left -->
     <ImageView
-    android:id="@+id/menuButton"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/baseline_menu_24"
-    android:layout_alignParentTop="true"
-    android:layout_alignParentStart="true"
-    android:contentDescription="Menu"
-    android:padding="8dp" />
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_menu_24"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="Menu"
+        android:padding="8dp" />
 
     <!-- Title for the main page -->
     <TextView
@@ -29,10 +29,6 @@
         android:fontFamily="@font/pacifico"/>
 
     <!-- Calendar Button -->
-
-    <!-- Journal Button -->
-
-    <!-- To-Do List Button -->
     <LinearLayout
         android:id="@+id/calendarButton"
         android:layout_width="150dp"
@@ -58,6 +54,7 @@
             android:textSize="16sp" />
     </LinearLayout>
 
+    <!-- Journal Button -->
     <LinearLayout
         android:id="@+id/journalButton"
         android:layout_width="150dp"
@@ -83,6 +80,7 @@
             android:textSize="16sp" />
     </LinearLayout>
 
+    <!-- To-Do List Button -->
     <LinearLayout
         android:id="@+id/todoButton"
         android:layout_width="150dp"
@@ -123,8 +121,7 @@
 
         <ImageView
             android:layout_width="60dp"
-            android:layout_height="60dp"
-            />
+            android:layout_height="60dp" />
 
         <TextView
             android:layout_width="wrap_content"
