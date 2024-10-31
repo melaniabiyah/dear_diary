@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="rouge">#A94064</color>
+    <color name="raspberry_glace">#915F6D</color>
+    <color name="turkish_rose">#B57281</color>
+    <color name="puce">#CC8899</color>
+    <color name="fandango">#B53389</color>
+    <color name="mulberry">#C54B8C</color>
+    <color name="wild_orchid">#D470A2</color>
+    <color name="pink_pearl">#E7ACCF</color>
+    <color name="barbie_pink">#E0218A</color>
+    <color name="neon_pink">#FF6EC7</color>
+    <color name="lavender_rose">#FBA0E3</color>
+    <color name="shampoo">#FFCFF1</color>
+    <color name="shocking_pink">#FC0FC0</color>
+    <color name="light_deep_pink">#FF5CCD</color>
+    <color name="light_hot_pink">#FFB3DE</color>
+    <color name="lace">#FFD8F0</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="ultra_pink">#FF6FFF</color>
+    <color name="fuchsia">#C154C1</color>
+    <color name="hot_pink">#FF69B4</color>
+    <color name="baby_pink">#FFE0E5</color>
+    <color name="brown">#BB7953</color>
+    <color name="yellow">#FCD997</color>
+
+
+</resources>
